@@ -44,3 +44,67 @@ button{
     color: black;
     background-color: #e1b226;
 }
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 ;
+}
+.header-logo{
+    font-size: 28px;
+    line-height: 42px;
+}
+.header-nav-item{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.header-nav-item:hover{
+    color: #dc0808;
+}
+.header-nav-item:last-child{
+    margin-right: 0;
+}
+.header-user_item{
+    display: inline-block;
+    margin-right: 30px;
+}
+.header-user_item:hover{
+    color: #dc0808;
+}
+.header-user_item:last-child{
+    margin-right: 0;
+}
+/* Banner */
+.banner-wrap{
+    padding: 425px 0 100px;
+    background: url(../img/header_logo.png) no-repeat;
+    background-size: cover;
+}
+.banner{
+    max-width: 460px;
+    margin-left: auto;
+}
+.banner__text{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.banner__trend{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120px;
+}
+.banner__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.banner-link-wrap{
+    margin-top: 27px;
+}
+.banner__link:first-child {
+    margin-right: 34px;
+}
